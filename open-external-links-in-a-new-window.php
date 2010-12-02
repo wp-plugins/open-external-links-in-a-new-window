@@ -4,7 +4,7 @@ Plugin Name: Open external links in a new window
 Plugin URI: http://wordpress.org/extend/plugins/open-external-links-in-a-new-window/
 Description: Opens all external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 Author: Kristian Risager Larsen
-Version: 1.0
+Version: 1.0.1
 Author URI: http://kezze.dk
 */
 
@@ -28,7 +28,7 @@ function external_links_in_new_windows()
 		  	if (all_links.href.search('/".$blogdomain['host']."/') == -1) {
 		    	// all_links.setAttribute('target', '_blank');
 		    	document.links[t].setAttribute('href', 'javascript:window.open(\\''+all_links.href+'\\'); void(0);');
-		    	document.links[t].setAttribute('target', '');
+		    	document.links[t].removeAttribute('target');
 		    }
 		  }
 		}
