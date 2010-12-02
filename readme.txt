@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/xclick/business=paypal%40kezze.dk&item_name=
 Tags: links, external links, target blank, target new, window.open, new window, blank window, new tab, blank tab, tabs, SEO, xhtml strict, javascript
 Requires at least: 2.0
 Tested up to: 3.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Opens all external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
@@ -25,6 +25,9 @@ Based on the source of [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap
 
 == Changelog ==
 
+= 1.0.1 =
+Fixed: Removes target attribute from links instead of setting the attribute to null. (Thanks to [crashnet](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-target-attribute-left-empty?replies=2))
+
 = 1.0 =
 Fixed: Credits to Tom K&ouml;hler (Charset)
 Fixed: Links
@@ -33,6 +36,9 @@ Fixed: Links
 Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Minor bugfix.
 
 = 1.0 =
 Ready for production.
