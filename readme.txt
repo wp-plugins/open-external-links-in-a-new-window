@@ -3,8 +3,8 @@ Contributors: kezze, Zap
 Donate link: https://www.paypal.com/xclick/business=paypal%40kezze.dk&item_name=Donation&no_note=1&tax=0&currency_code=EUR
 Tags: links, external links, target blank, target new, window.open, new window, blank window, new tab, blank tab, tabs, SEO, xhtml strict, javascript
 Requires at least: 2.0
-Tested up to: 3.0
-Stable tag: 1.1.0
+Tested up to: 3.1
+Stable tag: 1.1.1
 
 Opens all external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
@@ -25,11 +25,14 @@ Based on the source of [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap
 
 == Changelog ==
 
+= 1.1.1 =
+Fixed: Resolved deprecation warning (Thanks to [boo1865](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-doesnt-work?replies=2#post-2152292))
+
 = 1.1.0 =
 Changed: Better practice for opening links. The plugin now uses the onClick-attribute instead of writing JavaScript directly into the href-attribute. This enables users to right-click the link and open in a new window/tab, save the target etc.
 
 = 1.0.1 =
-Fixed: Removes target attribute from links instead of setting the attribute to null. (Thanks to [crashnet](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-target-attribute-left-empty?replies=2))
+Fixed: Removes target attribute from links instead of setting the attribute to null. (Thanks to [crashnet](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-target-attribute-left-empty?replies=2#post-1813522))
 
 = 1.0 =
 Fixed: Credits to Tom K&ouml;hler (Charset)
@@ -39,6 +42,9 @@ Fixed: Links
 Initial release
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+Fixed: Resolved deprecation warning.
 
 = 1.1.0 =
 Better practice for opening links. Please upgrade.
