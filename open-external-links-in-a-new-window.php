@@ -6,6 +6,7 @@ Description: Opens all external links in a new window. XHTML Strict compliant an
 Author: Kristian Risager Larsen
 Version: 1.2
 Author URI: http://kezze.dk
+Text Domain: open-external-links-in-a-new-window
 */
 
 load_plugin_textdomain('open-external-links-in-a-new-window', false, basename( dirname( __FILE__ ) ) );

@@ -17,7 +17,12 @@ This is done using JavaScript's `window.open()`-function.
 Most other plugins perform a hack by altering the `target` parameter (i.e. `<a href="http://somewhere.example" target="_blank">`). That method is not XHTML Strict compliant.
 This plugin handles the links client-side, which lets search engines follow the links properly. Also, if a browser does not support JavaScript, the plugin is simply inactive, and does not result in any errors. 
 
-Inspired of [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin") by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German"). Thanks a lot!
+** Credits **
+Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German").
+The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photostream/) by [Monja Da Riva](http://www.monja.it/).
+
+** Known bugs **
+* The plugin conflicts with other plugins that change the links' `onClick´-attribute.
 
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
@@ -25,11 +30,11 @@ Inspired of [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/
 
 == Changelog ==
 
-= 1.2.0 =
-Added: Translation-ready
+= 1.2 =
+Added: Translation-ready.
 
 = 1.1.1 =
-Fixed: Resolved deprecation warning (Thanks to [boo1865](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-doesnt-work?replies=2#post-2152292))
+Fixed: Deprecation warning (Thanks to [boo1865](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-doesnt-work?replies=2#post-2152292))
 
 = 1.1.0 =
 Changed: Better practice for opening links. The plugin now uses the onClick-attribute instead of writing JavaScript directly into the href-attribute. This enables users to right-click the link and open in a new window/tab, save the target etc.
@@ -38,16 +43,19 @@ Changed: Better practice for opening links. The plugin now uses the onClick-attr
 Fixed: Removes target attribute from links instead of setting the attribute to null. (Thanks to [crashnet](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-target-attribute-left-empty?replies=2#post-1813522))
 
 = 1.0 =
-Fixed: Credits to Tom K&ouml;hler (Charset)
-Fixed: Links
+Fixed: Credits to Tom K&ouml;hler (Charset).
+Fixed: Links.
 
 = 0.9 =
-Initial release
+Initial release.
 
 == Upgrade Notice ==
 
+= 1.2 =
+Added: Translation-ready.
+
 = 1.1.1 =
-Fixed: Resolved deprecation warning.
+Fixed: Deprecation warning.
 
 = 1.1.0 =
 Better practice for opening links. Please upgrade.
