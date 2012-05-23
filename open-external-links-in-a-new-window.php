@@ -149,7 +149,7 @@ function external_links_in_new_windows_admin_options_page() {
 
 function external_links_in_new_windows_plugin_action_links( $links, $file ) {
 	if ( $file == plugin_basename( dirname(__FILE__).'/open-external-links-in-a-new-window.php' ) ) {
-		$links[] = '<a href="options-general.php?page=external_links_in_new_windows">'.__('Settings').'</a>';
+		$links[] = '<a href="options-general.php?page=external_links_in_new_windows">'.__('Settings',"open-external-links-in-a-new-window").'</a>';
 	}
 	return $links;
 }
