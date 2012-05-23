@@ -17,7 +17,7 @@ This is done using JavaScript's `window.open()`-function.
 Most other plugins perform a hack by altering the `target` parameter (i.e. `<a href="http://somewhere.example" target="_blank">`). That method is not XHTML Strict compliant.
 This plugin handles the links client-side, which lets search engines follow the links properly. Also, if a browser does not support JavaScript, the plugin is simply inactive, and does not result in any errors. 
 
-Inspired by [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin") by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German"). Thanks a lot!
+Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German"). Thanks a lot!
 
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
@@ -29,7 +29,7 @@ Inspired by [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/
 Added: Translation-ready.
 
 = 1.1.1 =
-Fixed: Resolved deprecation warning (Thanks to [boo1865](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-doesnt-work?replies=2#post-2152292))
+Fixed: Deprecation warning (Thanks to [boo1865](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-doesnt-work?replies=2#post-2152292))
 
 = 1.1.0 =
 Changed: Better practice for opening links. The plugin now uses the onClick-attribute instead of writing JavaScript directly into the href-attribute. This enables users to right-click the link and open in a new window/tab, save the target etc.
@@ -50,7 +50,7 @@ Initial release
 Added: Translation-ready.
 
 = 1.1.1 =
-Fixed: Resolved deprecation warning.
+Fixed: Deprecation warning.
 
 = 1.1.0 =
 Better practice for opening links. Please upgrade.
