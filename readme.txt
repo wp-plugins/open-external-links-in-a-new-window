@@ -6,16 +6,15 @@ Requires at least: 2.0
 Tested up to: 3.3
 Stable tag: 1.2
 
-Opens all external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
+Opens all (or specific) external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
 == Description ==
-Opens all external links (starting with `http://` or `https://`) in a separate browser window.
+Opens external links (starting with `http://` or `https://`) in a separate browser window (or tab). You can also specify certain URLs that should either be forced to open in a new window or ignored.
 The plugin produces XHTML Strict compliant code and is also search engine optimized (SEO).
-
 This is done using JavaScript's `window.open()`-function.
 
 Most other plugins perform a hack by altering the `target` parameter (i.e. `<a href="http://somewhere.example" target="_blank">`). That method is not XHTML Strict compliant.
-This plugin handles the links client-side, which lets search engines follow the links properly. Also, if a browser does not support JavaScript, the plugin is simply inactive, and does not result in any errors. 
+This plugin handles the links client-side, which lets search engines follow the links properly. Also, if a browser does not support JavaScript, the plugin is simply inactive, and does not result in any errors.
 
 **Credits**
 Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German").
@@ -27,8 +26,12 @@ The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photost
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
 1. Activate this plugin.
+1. Eventually, change the settings in Settings->External links.
 
 == Changelog ==
+
+= 1.3 =
+Added: Possibility to force and ignore user-defined strings in URLs. This feature has been requested.
 
 = 1.2 =
 Added: Translation-ready.
@@ -50,6 +53,9 @@ Fixed: Links.
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.3 =
+In Settings->External links, you can now specify URL's that should be either forced to open in a new window, or ignored.
 
 = 1.2 =
 Added: Translation-ready.
