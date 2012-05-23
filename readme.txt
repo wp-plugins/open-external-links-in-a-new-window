@@ -19,7 +19,7 @@ This plugin handles the links client-side, which lets search engines follow the 
 
 ** Thanks **
 Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German").
-The banner is [photo](http://www.flickr.com/photos/monja/1367946568/in/photostream/) by [Monja Da Riva](http://www.monja.it/).
+The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photostream/) by [Monja Da Riva](http://www.monja.it/).
 
 ** Known bugs **
 * The plugin conflicts with other plugins that change the links' `onClick´-attribute.
@@ -43,11 +43,11 @@ Changed: Better practice for opening links. The plugin now uses the onClick-attr
 Fixed: Removes target attribute from links instead of setting the attribute to null. (Thanks to [crashnet](http://wordpress.org/support/topic/plugin-open-external-links-in-a-new-window-target-attribute-left-empty?replies=2#post-1813522))
 
 = 1.0 =
-Fixed: Credits to Tom K&ouml;hler (Charset)
-Fixed: Links
+Fixed: Credits to Tom K&ouml;hler (Charset).
+Fixed: Links.
 
 = 0.9 =
-Initial release
+Initial release.
 
 == Upgrade Notice ==
 
