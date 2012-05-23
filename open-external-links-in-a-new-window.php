@@ -115,6 +115,12 @@ function external_links_in_new_windows_admin_options_page() {
 	<form method="post" action="options.php">
 	<?php wp_nonce_field('update-options'); ?>
 	
+	<?php _e("By default, this plugins makes all external links (i.e. links that point outside the current host name) open in a new window/tab.","open-external-links-in-a-new-window"); ?><br />
+	
+	<?php _e("You can change this behavior by providing regular expressions that either forces or ignores whether the link should open in a new window.","open-external-links-in-a-new-window"); ?><br />
+	<br />
+
+	
 	<?php _e("Force links to open in a new window if they match:","open-external-links-in-a-new-window"); ?><br />
 	<input name="external_links_in_new_windows_force" type="text" id="external_links_in_new_windows_force" value="<?php echo get_option('external_links_in_new_windows_force'); ?>" style="width: 80%" /><br /><br />
 
@@ -123,18 +129,14 @@ function external_links_in_new_windows_admin_options_page() {
 
 	<input type="hidden" name="action" value="update" />
 	<input type="hidden" name="page_options" value="external_links_in_new_windows_force,external_links_in_new_windows_ignore" />
-	<input type="submit" value="<?php _e("Save changes");?>" />
+	<input type="submit" value="<?php _e("Save changes","open-external-links-in-a-new-window");?>" />
 	
 	<br /><br />
 	
-	<?php _e("By default, this plugins makes all external links (i.e. links that point outside the current host name) open in a new window/tab.","open-external-links-in-a-new-window"); ?><br />
-	
-	<?php _e("You can change this behavior by providing regular expressions that either forces or ignores whether the link should open in a new window.","open-external-links-in-a-new-window"); ?><br />
-	<br />
-	<?php _e("The matches are prioritized:","open-external-links-in-a-new-window"); ?>
+	<?php _e("The matches are prioritized in the following order:","open-external-links-in-a-new-window"); ?>
 	<ol>
-		<li><?php _e("Ignored URL's","open-external-links-in-a-new-window"); ?></li>
-		<li><?php _e("Forced URL's","open-external-links-in-a-new-window"); ?></li>
+		<li><?php _e("Ignored, matching URLs","open-external-links-in-a-new-window"); ?></li>
+		<li><?php _e("Forced, matching URLs","open-external-links-in-a-new-window"); ?></li>
 		<li><?php _e("http:// or https://","open-external-links-in-a-new-window"); ?></li>
 	</ol>
 	
