@@ -17,11 +17,11 @@ This is done using JavaScript's `window.open()`-function.
 Most other plugins perform a hack by altering the `target` parameter (i.e. `<a href="http://somewhere.example" target="_blank">`). That method is not XHTML Strict compliant.
 This plugin handles the links client-side, which lets search engines follow the links properly. Also, if a browser does not support JavaScript, the plugin is simply inactive, and does not result in any errors. 
 
-** Credits **
+**Credits**
 Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German").
 The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photostream/) by [Monja Da Riva](http://www.monja.it/).
 
-** Known bugs **
+**Known bugs**
 * The plugin conflicts with other plugins that change the links' `onClick´-attribute.
 
 == Installation ==
