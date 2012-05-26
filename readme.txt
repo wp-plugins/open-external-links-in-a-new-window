@@ -22,7 +22,8 @@ The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photost
 
 **Translations**
 Danish by [Kristian Risager Larsen](http://kristianrisagerlarsen.dk).
-Lithuanian by [Vincent G](http://Host1Free.com)
+Lithuanian by [Vincent G](http://Host1Free.com).
+Other translations will be appreciated!
 
 **Known bugs**
 * The plugin conflicts with other plugins that change the links' `onClick´-attribute.
