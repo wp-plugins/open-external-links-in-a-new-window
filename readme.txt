@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/xclick/business=paypal%40kezze.dk&item_name=
 Tags: links, external links, target blank, target new, window.open, new window, blank window, new tab, blank tab, tabs, SEO, xhtml strict, javascript
 Requires at least: 2.0
 Tested up to: 3.3
-Stable tag: 1.2
+Stable tag: 1.3
 
 Opens all (or specific) external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
@@ -20,18 +20,23 @@ This plugin handles the links client-side, which lets search engines follow the 
 Inspired by the [Zap_NewWindow](http://www.zappelfillip.de/2005-12-05/zap_newwindow/ "Another Wordpress plugin")-plugin by [Tom K&ouml;hler](http://www.zappelfillip.de/ "His website is mostly in German").
 The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photostream/) by [Monja Da Riva](http://www.monja.it/).
 
+**Translations**
+Danish by [Kristian Risager Larsen](http://kristianrisagerlarsen.dk).
+Lithuanian by [Vincent G](http://Host1Free.com)
+
 **Known bugs**
 * The plugin conflicts with other plugins that change the links' `onClick´-attribute.
 
 == Installation ==
 1. Copy the plugin to /wp-content/plugins/
-1. Activate this plugin.
+1. Activate the plugin.
 1. Eventually, change the settings in Settings->External links.
 
 == Changelog ==
 
 = 1.3 =
 Added: Possibility to force and ignore user-defined strings in URLs. This feature has been requested.
+Added: Lithuanian and Danish translation.
 
 = 1.2 =
 Added: Translation-ready.
