@@ -1,10 +1,10 @@
 === Open external links in a new window ===
-Contributors: kezze, Zap
+Contributors: kezze
 Donate link: https://www.paypal.com/xclick/business=paypal%40kezze.dk&item_name=Donation&no_note=1&tax=0&currency_code=EUR
 Tags: links, external links, target blank, target new, window.open, new window, blank window, new tab, blank tab, tabs, SEO, xhtml strict, javascript
 Requires at least: 2.0
-Tested up to: 3.3
-Stable tag: 1.3
+Tested up to: 4.0
+Stable tag: 1.3.1
 
 Opens all (or specific) external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
@@ -22,6 +22,7 @@ The banner is a [photo](http://www.flickr.com/photos/monja/1367946568/in/photost
 
 **Translations**
 Danish by [Kristian Risager Larsen](http://kristianrisagerlarsen.dk).
+Dutch by [Paul Staring](http://www.collectief-it.nl/)
 Lithuanian by [Vincent G](http://Host1Free.com).
 Other translations will be appreciated!
 
@@ -34,6 +35,11 @@ Other translations will be appreciated!
 1. Eventually, change the settings in Settings->External links.
 
 == Changelog ==
+
+= 1.3.1 =
+Verified compatibility with Wordpress 4.0
+Added: Plugin logo for Wordpress 4.0
+Added: Dutch translation.
 
 = 1.3 =
 Added: Possibility to force and ignore user-defined strings in URLs. This feature has been requested.
@@ -59,6 +65,9 @@ Fixed: Links.
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+Wordpress 4.0-compatibility, and Dutch translation.
 
 = 1.3 =
 In Settings->External links, you can now specify URL's that should be either forced to open in a new window, or ignored.
