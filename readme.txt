@@ -3,8 +3,8 @@ Contributors: kezze
 Donate link: https://www.paypal.com/xclick/business=paypal%40kezze.dk&item_name=Donation&no_note=1&tax=0&currency_code=EUR
 Tags: links, external links, target blank, target new, window.open, new window, blank window, new tab, blank tab, tabs, SEO, xhtml strict, javascript
 Requires at least: 2.0
-Tested up to: 4.0
-Stable tag: 1.3.1
+Tested up to: 4.9
+Stable tag: trunk
 
 Opens all (or specific) external links in a new window. XHTML Strict compliant and search engine optimized (SEO).
 
